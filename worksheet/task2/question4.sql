@@ -5,4 +5,4 @@
 SELECT Student.StudentId, FirstName, LastName, CourseName
 FROM Student
 JOIN Enrolment ON Student.StudentId = Enrolment.StudentId
-JOIN Course ON Enrolment.StudentId = Course.StudentId
+JOIN Course ON Enrolment.CourseId = Course.CourseId

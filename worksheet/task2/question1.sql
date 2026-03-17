@@ -3,4 +3,4 @@
 -- StudentId, FirstName, LastName, EnrolmentYear
 SELECT StudentId, FirstName, LastName, EnrolmentYear
 FROM Student
-WHERE EnrolmentYear
+WHERE EnrolmentYear = 2022;
